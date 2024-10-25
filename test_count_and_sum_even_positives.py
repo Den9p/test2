@@ -4,8 +4,8 @@ from count_and_sum_even_positives import count_and_sum_even_positives
 def test_example():
     numbers = [1, 2, 3, 4, 5, 6, -2, -4, 0, 8, 10]
     count, total_sum = count_and_sum_even_positives(numbers)
-    assert count == 4
-    assert total_sum == 20
+    assert count == 5 
+    assert total_sum == 30 
 
 def test_empty_list():
     numbers = []
